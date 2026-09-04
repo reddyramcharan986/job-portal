@@ -17,4 +17,5 @@ A responsive frontend Job Portal website where users can explore job opportuniti
 
 ## Author
 
-Ram charan reddy
+**Gayam Venkata Ram Charan Reddy**  
+GitHub: reddyramcharan986
