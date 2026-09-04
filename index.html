@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Job Portal</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Find Your Dream Job</h2>
+        <p>Explore job opportunities and build your career.</p>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for jobs..."
+        >
+
+        <button onclick="searchJobs()">Search Jobs</button>
+    </section>
+
+    <section id="jobs">
+        <h2>Available Jobs</h2>
+
+        <div class="job-container">
+
+            <div class="job-card">
+                <h3>Frontend Developer</h3>
+                <p>Company: Tech Solutions</p>
+                <p>Location: Hyderabad</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Java Developer</h3>
+                <p>Company: Code Labs</p>
+                <p>Location: Bangalore</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Python Developer</h3>
+                <p>Company: AI Technologies</p>
+                <p>Location: Chennai</p>
+                <button>Apply Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Job Portal</h2>
+        <p>
+            Job Portal helps users explore different job opportunities
+            and find suitable careers.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Job Portal | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
